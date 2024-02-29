@@ -1,0 +1,96 @@
+/*Navigation Styling*/
+
+.btn-nav {
+  background: #fff;
+  border: #fff;
+}
+
+.btn-nav:hover {
+  background: #910a67;
+  border: #910a67;
+  color: #fff;
+}
+
+/*Login & Sign Up Form styling*/
+
+.box {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  border-radius: 14px;
+  width: 30vmax;
+  height: fit-content;
+  background-color: fff;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.596);
+}
+
+form h2 {
+  font-weight: bolder;
+  color: #fff;
+}
+
+form input,
+textarea {
+  width: 70%;
+  border-radius: 4px;
+  border: 2px solid #030637;
+}
+
+form input:hover {
+  border: 2px solid #910a67;
+}
+
+form label {
+  color: #fff;
+}
+
+.btn-1 {
+  background: #910a67;
+  border: #910a67;
+}
+
+.btn-1:hover {
+  background: #030637;
+  border: #030637;
+}
+
+/*Contact Form styling*/
+
+.form-variant {
+  border: 2px solid #910a67;
+}
+
+.h2 {
+  color: #910a67;
+  font-weight: bolder;
+}
+
+.input-info {
+  width: 70%;
+  border-radius: 0;
+  border: 2px solid #910a67;
+}
+
+/*Gradient Background*/
+
+.gradient-background {
+  background: linear-gradient(300deg, #030637, #720455, #910a67);
+  background-size: 150% 150%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
